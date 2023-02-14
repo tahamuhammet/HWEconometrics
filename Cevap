@@ -1,2 +1,3 @@
-=IF(ISNUMBER('[99. TasitSeasAdjustmentJDemetraycalevdspyPRO.xlsx]Sheet1'!B2), IF('[99. TasitSeasAdjustmentJDemetraycalevdspyPRO.xlsx]Sheet1'!B2>=0, '[99. TasitSeasAdjustmentJDemetraycalevdspyPRO.xlsx]Sheet1'!B2, ".."), "")
+. TasitSeasAdjustmentJDemetraycalevdspyPRO.xlsx]Sheet1'!B2), IF('[99. TasitSeasAdjustmentJDemetraycalevdspyPRO.xlsx]Sheet1'!B2>=0, '[99. TasitSeasAdjustmentJDemetraycalevdspyPRO.xlsx]Sheet1'!B2, ".."), "")
 
+=IF(ISNUMBER('[99. TasitSeasAdjustmentJDemetraycalevdspyPRO.xlsx]Sheet1'!B2), IF(AND('[99. TasitSeasAdjustmentJDemetraycalevdspyPRO.xlsx]Sheet1'!B2>=0, '[99. TasitSeasAdjustmentJDemetraycalevdspyPRO.xlsx]Sheet1'!B2<=100), '[99. TasitSeasAdjustmentJDemetraycalevdspyPRO.xlsx]Sheet1'!B2, ".."), "")
