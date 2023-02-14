@@ -1,0 +1,2 @@
+=IF(ISNUMBER('[99. TasitSeasAdjustmentJDemetraycalevdspyPRO.xlsx]Sheet1'!B2), IF('[99. TasitSeasAdjustmentJDemetraycalevdspyPRO.xlsx]Sheet1'!B2>=0, '[99. TasitSeasAdjustmentJDemetraycalevdspyPRO.xlsx]Sheet1'!B2, ".."), "")
+
